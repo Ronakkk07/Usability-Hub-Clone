@@ -1,0 +1,125 @@
+@media  screen and (max-width:991px) {
+    h3{
+        font-size: 1.2rem
+    }
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main-nav{
+        overflow: initial;
+    }
+
+    .navlinks{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .navlinks.active{
+        left: 0;
+    }
+
+    .navlinks ul{
+        flex-direction: column;
+    }
+    
+    .big-feature-section{
+        margin-left: 83px;
+        width: 85%;
+    }
+
+    .feature-desc{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .feature-desc p{
+        font-size: 20px;
+    }
+    .feature-desc h4{
+        font-size: 20px;
+    }
+    .feature-desc h3{
+        font-size: 20px;
+    }
+
+    .examples-section{
+        width: 100%;
+    }
+
+    .examples-card{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .examples-area{
+        gap:20px
+    }
+    .cta-section{
+        padding-block: 80px;
+    }
+}
+
+@media  screen and (max-width:767px) {
+    .primary-button{
+        width: 100%;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+    .features-card{
+        min-width: calc(50% - 10px);
+    }
+    .big-feature-container , #second-big-feature{
+        flex-direction: column;
+    }
+    .footer-conatiner{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+    .link-column{
+        align-items: stretch;
+    }
+    
+}
+
+@media  screen and (max-width:479px){
+    :root{
+        --padding-inline-section: 10px;
+    }
+    h1{
+        font-size: 2rem;  
+    }
+    
+    h2{
+        font-size: 1.5rem;  
+    }
+    
+    h3{
+        font-size: 1.5rem;  
+    }
+    p{
+        font-size: 1rem;
+    }
+    .features-card{
+        min-width: 100%;
+    }
+    .examples-card{
+        width: 100%;
+    }
+    .big-feature-section{
+        margin-left: 30px;
+    }
+}
